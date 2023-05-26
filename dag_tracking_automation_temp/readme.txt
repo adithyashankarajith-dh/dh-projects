@@ -8,12 +8,12 @@
     2.1 pip install pandas
     2.2 pip install beautifulsoup4
 3. Git clone the following repository or put the files from the repository into a standalone folder
-    3.1
+    3.1 https://github.com/adithyashankarajith-dh/dh-projects/tree/main/dag_tracking_automation_temp
 4. In the dag_ids.py file, specify the dag names required to be tracked in the list called dag_names.
     4.1 If more dags are added to the dag tracker list, they needed to be added to the dag_names list.
 5. Update the input.html file as per the below instructions
-    5.1 Go to the airflow link for tracking the dags ->
+    5.1 Go to the airflow link for tracking the dags -> https://airflow-qcommerce.datahub.deliveryhero.net/dags/curated-data-report-v1/grid?root=
     5.2 Right click and select 'View Page Source' (this can be different on different browsers)
-    5.3 Copy all of the 'Page Source' code into the input.html file
+    5.3 Copy all of the 'Page Source' code and paste into the input.html file
 6. Run the python script and you should get a file called 'dags_status_check.csv' in the same folder.
 6. (Optional) If you want to chane the input_file and output_file names, you can change them in dag_checker.py
