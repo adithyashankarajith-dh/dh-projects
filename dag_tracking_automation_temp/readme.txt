@@ -2,7 +2,7 @@
 --- Does not follow best coding practices as of now. PRs to update this are more than welcome ---
 --- Please follow the steps outlined below to get started ---
 
-1. If python is not installed on your machine, install and setup python as per this link -> 
+1. If python is not installed on your machine, install and setup python as per this link -> https://confluence.deliveryhero.com/pages/viewpage.action?spaceKey=DINV&title=4.+Python
     1.1 To check if python is installed on your machine, in your terminal run the command 'python3 --version' or 'python --version'
 2. Install the following libraries using the following commands(If pip install 'library' doesn't work, try pip3 install 'library')
     2.1 pip install pandas
